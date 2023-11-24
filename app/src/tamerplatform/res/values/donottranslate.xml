@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_description" translatable="false">Tamer Apk Store, a white-labeled version of the F-Droid client app, is maintained and managed by Tamer Platform with support from Cyfinoid Private Ltd. This app store, a companion to Tamer Platform, provides various Android applications useful in security research. A large number of these applications are curated from various open-source projects.</string>
+    <string name="site_link" translatable="false">https://tamerplatform.com/</string>
+    <string name="forum_link" translatable="false">contact@tamerplatform.com</string>
+    <string name="source_link" translatable="false">https://github.com/Vulnerable-applications-for-android/fdroidclient</string>
+    <string name="license_gplv3_later" translatable="false">GNU General Public License version\u00A03 or later</string>
+    <string name="app_details_subject" translatable="false">%1$s on Tamer App Store</string>
+
+</resources>

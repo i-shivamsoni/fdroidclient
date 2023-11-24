@@ -28,7 +28,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        versionCode 1019002
+        versionCode 1019000
         versionName getVersionName()
         applicationId "org.fdroid"
 
@@ -52,6 +52,10 @@ android {
     }
 
     buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+
         // use proguard on debug too since we have unknowingly broken
         // release builds before.
         all {
@@ -74,17 +78,23 @@ android {
         }
     }
 
-    flavorDimensions "base"
+    flavorDimensions = ["base", "tamerplatform"]
     productFlavors {
         full {
             getIsDefault().set(true)
             dimension "base"
-            applicationIdSuffix ".fdroid"
+//            applicationIdSuffix ".fdroid"
         }
         basic {
             dimension "base"
             targetSdkVersion 33
             applicationIdSuffix ".basic"
+        }
+        tamerplatform {
+            dimension "tamerplatform"
+            applicationId 'com.tamerplatform.appstore'
+            versionCode 1
+            versionName 'alpha'
         }
     }
     applicationVariants.all { variant ->
@@ -133,6 +143,15 @@ android {
         androidTest {
             java.srcDirs += "$projectDir/src/testShared/java"
         }
+
+//        tamerplatform {
+//            java.srcDirs += "$projectDir/src/tamerplatform/java"
+//            res.srcDirs += "$projectDir/src/tamerplatform/res"
+//            assets.srcDirs += "$projectDir/src/tamerplatform/res"
+//            manifest.srcFile "$projectDir/src/tamerplatform/manifests/AndroidManifest.xml"
+//
+//        }
+
     }
 
     lintOptions {
@@ -229,13 +248,13 @@ dependencies {
 }
 
 // org.fdroid.fdroid.updater.UpdateServiceTest needs app-full-debug.apk
-android.productFlavors.all { flavor ->
-    if (flavor.name == "full") {
-        project.afterEvaluate { project ->
-            def dep = tasks.getByName("assembleFullDebug")
-            project.tasks.withType(Test) { task ->
-                task.dependsOn dep
-            }
-        }
-    }
-}
+//android.productFlavors.all { flavor ->
+//    if (flavor.name == "full") {
+//        project.afterEvaluate { project ->
+//            def dep = tasks.getByName("assembleFullDebug")
+//            project.tasks.withType(Test) { task ->
+//                task.dependsOn dep
+//            }
+//        }
+//    }
+//}

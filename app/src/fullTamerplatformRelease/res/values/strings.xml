@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name" translatable="false">Tamer App Store</string>
-    <string name="app_name_full" translatable="false">Tamer App Store</string>
-    <string name="app_name_basic" translatable="false">Tamer App Store Basic</string>
-    <string name="app_name_debug" translatable="false">Tamer App Store Debug</string>
+    <string name="app_name" translatable="false">Tamer ApkStore</string>
+    <string name="app_name_full" translatable="false">Tamer ApkStore</string>
+    <string name="app_name_basic" translatable="false">Tamer ApkStore Basic</string>
+    <string name="app_name_debug" translatable="false">Tamer ApkStore Debug</string>
 
-    <string name="about_title_full" translatable="false">About Tamer App Store</string>
-    <string name="about_title_basic" translatable="false">About Tamer App Store Basic</string>
+    <string name="about_title_full" translatable="false">About Tamer ApkStore</string>
+    <string name="about_title_basic" translatable="false">About Tamer ApkStore Basic</string>
 
-    <string name="send_to_fdroid_metrics_summary" translatable="false">Sends anonymous data weekly to Tamer App Store Metrics (requires "Keep install history")</string>
-    <string name="app_permission_storage" translatable="false">Tamer App Store needs the storage permission to install this to storage. Please allow it on the next screen to proceed with installation.</string>
-    <string name="send_installed_apps_csv" translatable="false">Apps installed by Tamer App Store as CSV file</string>
-    <string name="repo_intro" translatable="false">A repository is an additional source of apps. Third-party ones you add here have different standards than those providing apps built by Tamer App Store itself.\n\nPlease ensure that the repository you are adding is trustworthy.</string>
-    <string name="local_repo_running" translatable="false">Tamer App Store is ready to swap</string>
+    <string name="send_to_fdroid_metrics_summary" translatable="false">Sends anonymous data weekly to Tamer ApkStore Metrics (requires "Keep install history")</string>
+    <string name="app_permission_storage" translatable="false">Tamer ApkStore needs the storage permission to install this to storage. Please allow it on the next screen to proceed with installation.</string>
+    <string name="send_installed_apps_csv" translatable="false">Apps installed by Tamer ApkStore as CSV file</string>
+    <string name="repo_intro" translatable="false">A repository is an additional source of apps. Third-party ones you add here have different standards than those providing apps built by Tamer ApkStore itself.\n\nPlease ensure that the repository you are adding is trustworthy.</string>
+    <string name="local_repo_running" translatable="false">Tamer ApkStore is ready to swap</string>
     <string name="category_Connectivity" tools:ignore="UnusedResources">Connectivity</string>
     <string name="category_Development" tools:ignore="UnusedResources">Development</string>
     <string name="category_Games" tools:ignore="UnusedResources">Games</string>
@@ -32,14 +32,14 @@
     <string name="category_Writing" tools:ignore="UnusedResources">Writing</string>
     <string name="category_Nightly" tools:ignore="UnusedResources">nightly</string>
     <string name="empty_installed_app_list" translatable="false">No apps installed.\n\nThere are apps on your device, but they are not
-        available from Tamer App Store. This could be because you need to update your repositories, or the repositories
+        available from Tamer ApkStore. This could be because you need to update your repositories, or the repositories
         genuinely don\'t have your apps available.
     </string>
-    <string name="nearby_splach__external_storage_permission_explainer" translatable="false">Tamer App Store can search for repos and mirrors on your SD Card, but needs your permission to do so.</string>
-    <string name="swap_nfc_description" translatable="false">If your friend has Tamer App Store and NFC turned on touch your devices together.</string>
-    <string name="swap_welcome" translatable="false">Welcome to Tamer App Store!</string>
-    <string name="swap_send_fdroid" translatable="false">Send Tamer App Store</string>
-    <string name="swap_connection_indexv0_error" translatable="false">You\'re trying to connect to someone with an outdated version of Tamer App Store. To connect they have to upgrade their Tamer App Store app. They can use swap to update their Tamer App Store app from you.</string>
-    <string name="crash_dialog_title" translatable="false">Tamer App Store has crashed</string>
+    <string name="nearby_splach__external_storage_permission_explainer" translatable="false">Tamer ApkStore can search for repos and mirrors on your SD Card, but needs your permission to do so.</string>
+    <string name="swap_nfc_description" translatable="false">If your friend has Tamer ApkStore and NFC turned on touch your devices together.</string>
+    <string name="swap_welcome" translatable="false">Welcome to Tamer ApkStore!</string>
+    <string name="swap_send_fdroid" translatable="false">Send Tamer ApkStore</string>
+    <string name="swap_connection_indexv0_error" translatable="false">You\'re trying to connect to someone with an outdated version of Tamer ApkStore. To connect they have to upgrade their Tamer ApkStore app. They can use swap to update their Tamer ApkStore app from you.</string>
+    <string name="crash_dialog_title" translatable="false">Tamer ApkStore has crashed</string>
 
 </resources>

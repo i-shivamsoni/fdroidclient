@@ -6,6 +6,6 @@
     <string name="forum_link" translatable="false">contact@tamerplatform.com</string>
     <string name="source_link" translatable="false">https://github.com/Vulnerable-applications-for-android/fdroidclient</string>
     <string name="license_gplv3_later" translatable="false">GNU General Public License version\u00A03 or later</string>
-    <string name="app_details_subject" translatable="false">%1$s on Tamer App Store</string>
+    <string name="app_details_subject" translatable="false">%1$s on Tamer ApkStore</string>
 
 </resources>
